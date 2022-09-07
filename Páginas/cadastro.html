@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+</head>
+<body>
+    <main>
+        <section class="escrita">
+            <h1 class="escrita-titulo">Olá, amigo!</h1>
+            <p class="escrita-paragrafo">Caso já tenha uma conta, entre clicando no botão abaixo</p>
+            <a class="escrita-botao" href="entrar.html">Entrar</a>
+        </section>
+        <section class="formulario">
+            <div class="formulario-informacoes">
+                <label class="formulario-nome">Nome 
+                    <input id="nome-usuario" type="text" name="nome" required></label>
+                <label class="formulario-sobrenome">Sobrenome 
+                    <input id="sobrenome-usuario" type="text" name="sobrenome" required></label>
+                <label class="formulario-email"></label>E-mail 
+                    <input id="email-usuario" type="email" name="email" required></label>
+                <label class="formulario-datanascimento"></label>Data de nascimento 
+                    <input id="data-nascimento" type="date" name="data-nascimento" required></label>
+                <label class="formulario-senha"></label>Senha 
+                    <input id="senha-usuario" type="password" name="senha" required></label>
+                <label class="formulario-confirmarsenha"></label>Confirmar senha 
+                    <input id="confirmar-senha-usuario" type="password" name="confirmar-senha" required></label>
+            </div>  
+            <div class="formulario-checkbox">
+                <input class="checkbox-termos" id="termos" type="checkbox" name="termos" required>
+                    <label class="checkbox-label" for="termos">Eu aceito e concordo com os termos de uso e <a href="termos.html">política de privacidade</a>.</label>
+                <input class="checkbox-email" id="receber-email" type="checkbox" name="receber-email">
+                    <label class="checkbox-label" for="receber-email">Eu aceito receber e-mail com novidades sobre o ###.</label>
+            </div>
+            <div class="formulario-botao">
+                <input class="formulario-botao-cadastrar" type="button" value="Cadastrar" name="botao-cadastrar">
+            </div>
+        </section>
+    </main>  
+</body>
+</html>
