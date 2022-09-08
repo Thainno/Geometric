@@ -1,8 +1,13 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     background-color: #78c1f9;
 }
 
-.conteudo{
+.conteudo {
     height: 100%;
     display: flex;
     justify-content: center; 
