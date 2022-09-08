@@ -1,0 +1,23 @@
+body {
+    background-color: #78c1f9;
+}
+
+.conteudo{
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+
+.escrita {
+    background-color: #3b90f3;
+    height: 500px;
+    width: 300px;  
+}
+
+.formulario {
+    background-color: #b4f2ff;
+    height: 500px;
+    width: 300px;
+}
+
