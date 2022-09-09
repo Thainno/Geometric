@@ -44,9 +44,11 @@ body {
     color: white;    
 }
 
-.escrita-botao {
+.escrita-link {
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
     background-color: #5ca558;
+    color: white;
     height: 40px;
     width: 150px;
     line-height: 40px;
@@ -54,15 +56,9 @@ body {
     text-align: center; 
 }
 
-.escrita-botao:hover {
+.escrita-link:hover {
     background-color: #66cc60;
     cursor: pointer;
-}
-
-.escrita-link {
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
 }
 
 .formulario {
