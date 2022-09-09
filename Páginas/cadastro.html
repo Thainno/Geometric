@@ -18,24 +18,28 @@
         </section>
         <section class="formulario">
             <div class="formulario-informacoes">
-                <label class="formulario-nome">Nome 
-                    <input id="nome-usuario" type="text" name="nome" required></label>
-                <label class="formulario-sobrenome">Sobrenome 
-                    <input id="sobrenome-usuario" type="text" name="sobrenome" required></label>
-                <label class="formulario-email"></label>E-mail 
-                    <input id="email-usuario" type="email" name="email" required></label>
-                <label class="formulario-datanascimento"></label>Data de nascimento 
-                    <input id="data-nascimento" type="date" name="data-nascimento" required></label>
-                <label class="formulario-senha"></label>Senha 
-                    <input id="senha-usuario" type="password" name="senha" required></label>
-                <label class="formulario-confirmarsenha"></label>Confirmar senha 
-                    <input id="confirmar-senha-usuario" type="password" name="confirmar-senha" required></label>
-            </div>  
+                <label class="formulario-nome" for="nome-usuario">Nome</label>
+                    <input class="input" id="nome-usuario" type="text" name="nome" required>
+                <label class="formulario-sobrenome" for="sobrenome-usuario">Sobrenome</label>
+                    <input class="input" id="sobrenome-usuario" type="text" name="sobrenome" required>
+                <label class="formulario-email" for="email-usuario">E-mail </label>
+                    <input class="input" id="email-usuario" type="email" name="email" required>
+                <label class="formulario-datanascimento" for="data-nascimento">Data de nascimento </label>
+                    <input class="input" id="data-nascimento" type="date" name="data-nascimento" required>
+                <label class="formulario-senha" for="senha-usuario">Senha</label>
+                    <input class="input" id="senha-usuario" type="password" name="senha" required>
+                <label class="formulario-confirmarsenha" for="confirmar-senha-usuario">Confirmar senha</label>
+                    <input class="input" id="confirmar-senha-usuario" type="password" name="confirmar-senha" required>
+            </div> 
             <div class="formulario-checkbox">
-                <input class="checkbox-termos" id="termos" type="checkbox" name="termos" required>
-                    <label class="checkbox-label" for="termos">Eu aceito e concordo com os termos de uso e <a href="termos.html">política de privacidade</a>.</label>
-                <input class="checkbox-email" id="receber-email" type="checkbox" name="receber-email">
-                    <label class="checkbox-label" for="receber-email">Eu aceito receber e-mail com novidades sobre o ###.</label>
+                <div class="formulario-checkbox-termo">
+                    <input class="checkbox-termos" id="termos" type="checkbox" name="termos" required>
+                    <label class="checkbox-label" for="termos">Eu aceito e concordo com os <a class="checkbox-link" href="termos.html">termos de uso</a> e <a class="checkbox-link" href="termos.html">política de privacidade</a>.</label>
+                </div>
+                <div class="formulario-checkbox-email">
+                    <input class="checkbox-email" id="receber-email" type="checkbox" name="receber-email" value="email">
+                    <label class="checkbox-label" for="receber-email">Eu aceito receber e-mail com novidades sobre o Geometric.</label>
+                </div>
             </div>
             <div class="formulario-botao">
                 <input class="formulario-botao-cadastrar" type="button" value="Cadastrar" name="botao-cadastrar">

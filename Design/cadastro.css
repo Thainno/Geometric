@@ -20,12 +20,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #3a3939;
+    background-color: #ffffff;
     height: 500px;
     width: 300px;  
     border-radius: 20px 0px 0px 20px; 
     padding: 10px 50px 50px 50px;
-}
+    box-shadow: 40px -15px #50890f7a;}
 
 .escrita-imagem {
     width: 300px;
@@ -41,11 +41,12 @@ body {
 .escrita-paragrafo {
     font-family: 'Open Sans', sans-serif;
     padding: 30px 0px 30px 0px;
-    color: white;    
+    color: rgb(0, 0, 0);    
 }
 
-.escrita-link {
+.escrita-link, .formulario-botao-cadastrar {
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     text-decoration: none;
     background-color: #5ca558;
     color: white;
@@ -54,17 +55,61 @@ body {
     line-height: 40px;
     border-radius: 20px;
     text-align: center; 
+    border: none;
 }
 
-.escrita-link:hover {
+.escrita-link:hover, .formulario-botao-cadastrar:hover  {
     background-color: #66cc60;
     cursor: pointer;
 }
 
 .formulario {
-    background-color: rgb(97, 96, 96);
-    height: 500px;
+    background-color: rgba(255, 255, 255, 0.76);
+    height: 490px;
     width: 300px;
     border-radius: 0px 20px 20px 0px;
+    padding: 20px 50px 50px 50px;    
+    box-shadow: 40px -15px #50890f7a;}
+
+.formulario-informacoes {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
 }
 
+.formulario-nome, .formulario-sobrenome, .formulario-email, .formulario-datanascimento, .formulario-confirmarsenha,  .formulario-senha {
+    padding-top: 10px;
+}
+
+.formulario-checkbox {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.input {
+    background-color: #356a9200;
+    border: none;
+    border-bottom: #5ca558 solid 1.5px;
+}
+
+.formulario-checkbox {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);  
+}
+
+.checkbox-link {
+    text-decoration: none;
+    color: #146fb4;
+}
+
+.checkbox-link:hover {
+    text-decoration: underline;
+}
+
+.formulario-botao {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
