@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background-color: #5ca558;
+    background: #a5c581;
 }
 
 .conteudo {
@@ -25,7 +25,8 @@ body {
     width: 300px;  
     border-radius: 200px 0px 0px 0px; 
     padding: 10px 50px 50px 50px;
-    box-shadow: 40px -15px #50890f7a;}
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.548);
+}
 
 .escrita-imagem {
     width: 300px;
@@ -69,7 +70,7 @@ body {
     width: 300px;
     border-radius: 0px 0px 200px 0px;
     padding: 20px 50px 50px 50px;    
-    box-shadow: 40px -15px #50890f7a;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.548);    
 }
 
 .formulario-informacoes {
