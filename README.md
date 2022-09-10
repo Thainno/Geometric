@@ -1,2 +1,2 @@
 <h1>Sistema de cadastro e login</h1>
-<p>Visualização disponível em breve!</p>
+<a href="https://thainno.github.io/sistema-cadastro/">Visualize aqui</a>
