@@ -57,6 +57,7 @@ body {
     border-radius: 20px;
     text-align: center; 
     border: none;
+    box-shadow: 1px 1px 10px black;
 }
 
 .escrita-link:hover, .formulario-botao-cadastrar:hover  {
@@ -77,12 +78,16 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-    color: rgb(0, 0, 0);
+    color: #000000;
 }
 
 .formulario-nome, .formulario-sobrenome, .formulario-email, .formulario-datanascimento, .formulario-confirmarsenha,  .formulario-senha {
     padding-top: 10px;
     font-size: 12px;
+    font-size: 10px;
+    font-family: 'Lora', serif;
+    color: #356992;
+    font-weight: bold;
 }
 
 .formulario-checkbox {
@@ -99,10 +104,22 @@ body {
     border: none;
     border-bottom: #50890f solid 1.5px;
     height: 25px;
+    border-radius: 5px;
 }
 
 .input:hover {
     border-bottom: #72c216 solid 1.5px;
+    color: #9bc76a;
+}
+
+.input:focus {
+    background: linear-gradient(80deg, #ace26e7c 10%, #89be4d00);
+    color: #146fb4;
+    transition-delay: 200s;
+}
+
+.input:active {
+    background: linear-gradient(80deg, #89be4d00 10%, #ace26e7c);
 }
 
 .checkbox-link {
