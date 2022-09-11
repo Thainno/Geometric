@@ -77,11 +77,11 @@ body {
 .formulario-informacoes {
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 38px;
     color: #000000;
 }
 
-.formulario-nome, .formulario-sobrenome, .formulario-email, .formulario-datanascimento, .formulario-confirmarsenha,  .formulario-senha {
+.formulario-informacoes label{
     padding-top: 10px;
     font-size: 12px;
     font-size: 10px;
@@ -93,7 +93,7 @@ body {
 .formulario-checkbox {
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
+    padding-top: 50px;
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(0, 0, 0);
@@ -103,23 +103,19 @@ body {
     background-color: #356a9200;
     border: none;
     border-bottom: #50890f solid 1.5px;
-    height: 25px;
-    border-radius: 5px;
+    height: 20px;
 }
 
 .input:hover {
     border-bottom: #72c216 solid 1.5px;
-    color: #9bc76a;
+    background: linear-gradient(80deg, #89be4d00 10%, #ace26e7c);
+    color: #000000;
+    height: 25px;
 }
 
 .input:focus {
     background: linear-gradient(80deg, #ace26e7c 10%, #89be4d00);
-    color: #146fb4;
     transition-delay: 200s;
-}
-
-.input:active {
-    background: linear-gradient(80deg, #89be4d00 10%, #ace26e7c);
 }
 
 .checkbox-link {
