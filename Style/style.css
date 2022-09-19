@@ -78,7 +78,6 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 38px;
-    color: #000000;
 }
 
 .formulario-informacoes label{
@@ -93,27 +92,29 @@ body {
 .formulario-checkbox {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 10px;
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(0, 0, 0);
 }
 
-.input {
+.formulario-informacoes input {
     background-color: #356a9200;
     border: none;
     border-bottom: #50890f solid 1.5px;
     height: 20px;
+    outline: none;
 }
 
-.input:hover {
+.formulario-informacoes input:hover {
     border-bottom: #72c216 solid 1.5px;
     background: linear-gradient(80deg, #89be4d00 10%, #ace26e7c);
     color: #000000;
-    height: 25px;
+    height: 22px;
 }
 
-.input:focus {
+.formulario-informacoes input:focus {
     background: linear-gradient(80deg, #ace26e7c 10%, #89be4d00);
     transition-delay: 200s;
 }
