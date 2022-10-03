@@ -23,9 +23,9 @@ body {
     background-color: #ffffff;
     height: 500px;
     width: 300px;  
-    border-radius: 200px 0px 0px 0px; 
+    border-radius: 20px 0px 0px 20px; 
     padding: 10px 50px 50px 50px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.548);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.548); 
 }
 
 .escrita-imagem {
@@ -69,9 +69,9 @@ body {
     background-color: rgb(212, 245, 218);
     height: 490px;
     width: 300px;
-    border-radius: 0px 0px 200px 0px;
+    border-radius: 0px 20px 20px 0px;
     padding: 20px 50px 50px 50px;    
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.548);    
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.548);    
 }
 
 .formulario-informacoes {
