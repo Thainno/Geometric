@@ -2,6 +2,11 @@
 
 <p><a href="https://thainno.github.io/sistema-cadastro/">Visualize aqui!</a></p>
 
+<p>Projeto em desenvolvimento.</p>
 
-<p>Sistema de cadastro desenvolvido para testar meus conhecimentos.<br>
-Tenho o intúito de acrescentar uma página de login e algumas funcionalizades com JavaScript.<p>
+<h2>Funcionalizades a serem adicionadas:</h2>
+<ul>
+  <li>Página de login;</li>
+  <li>Página após o login;</li> 
+  <li>Temas interativos;</li> 
+</ul>
