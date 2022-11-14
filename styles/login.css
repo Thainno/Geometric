@@ -70,10 +70,51 @@ main {
     align-items: center;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 input {
     width: 200px;
     height: 30px;
     margin-bottom: 10px;
+    outline: 0;
+}
+
+input:focus, input:valid {
+    border: 1px solid #6f08ee;
+    border-radius: 2px;
+    height: 32px;
+    width: 202px;
+}
+
+.inputs {
+    position: relative;
+}
+
+.inputs label{
+    position: absolute;
+    cursor: text;
+    left: 0;
+    margin: 10px 12px;    
+    color: #1e1e1ebd;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    padding: 0 2px;
+    background-color: white;
+    animation: liftLabel 1s forwards;
+}
+
+@keyframes liftLabel {
+    0%{
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
 }
 
 #login {

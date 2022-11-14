@@ -9,44 +9,51 @@
     <title>Geometric</title>
 </head>
 <body>
-        <section>
-            <div id="sec-1">
-                <header>
-                    <h1>Geometric</h1>
-                </header>
-                <main>
-                    <input type="email" name="email" id="email" value="Usuário ou e-mail">
-                    <input type="password" name="password" id="password" value="0123456789">
-                    <button id="login">Entrar</button>
-
-                    <div id="lines">
-                        <div class="line"></div>
-                        <div>
-                            <span>OU</span>
-                        </div>
-                        <div class="line"></div>
+    <section>
+        <div id="sec-1">
+            <header>
+                <h1>Geometric</h1>
+            </header>
+            <main>
+                <form action="">
+                    <div class="inputs">
+                        <input type="email" name="email" id="email" required>
+                        <label for="email">E-mail</label>
                     </div>
-                    <span>Entrar com</span>
-
-                    <div id="icons-login">
-                        <img class="icon-login" src="./images/icon-google.svg" alt="Entrar com Google">
-                        <img class="icon-login" src="./images/icon-facebook.svg" alt="Entrar com Facebook">
-                        <img class="icon-login" src="./images/icon-twitter.svg" alt="Entrar com Twitter">
-                        <img class="icon-login" src="./images/icon-apple.svg" alt="Entrar com ID Apple">                     
-                    </div> 
-                    <a id="forgot-password" href="##">Esqueceu sua senha ?</a>          
-                </main>
-            </div>
-            <div id="sec-2">
-                <span>Não tem uma conta ? <a href="./pages/register.html">Cadastre-se</a></span>
-            </div>
-            <div id="downloads">
-                <span>Obtenha o aplicativo.</span>
-                <div>
-                    <img class="button-download" src="./images/download-g.svg" alt="Download Google Play">
-                    <img class="button-download" src="./images/download-a.svg" alt="Download Microsoft">
+                    <div class="inputs">
+                        <input type="password" name="password" id="password" required>
+                        <label for="password">Senha</label>
+                    </div>
+                    <button id="login">Entrar</button>
+                </form>
+                <div id="lines">
+                    <div class="line"></div>
+                    <div>
+                        <span>OU</span>
+                    </div>
+                    <div class="line"></div>
                 </div>
-            </div>            
-        </section>
+                <span>Entrar com</span>
+
+                <div id="icons-login">
+                    <img class="icon-login" src="./images/icon-google.svg" alt="Entrar com Google">
+                    <img class="icon-login" src="./images/icon-facebook.svg" alt="Entrar com Facebook">
+                    <img class="icon-login" src="./images/icon-twitter.svg" alt="Entrar com Twitter">
+                    <img class="icon-login" src="./images/icon-apple.svg" alt="Entrar com ID Apple">                     
+                </div> 
+                <a id="forgot-password" href="##">Esqueceu sua senha ?</a>          
+            </main>
+        </div>
+        <div id="sec-2">
+            <span>Não tem uma conta ? <a href="./pages/register.html">Cadastre-se</a></span>
+        </div>
+        <div id="downloads">
+            <span>Obtenha o aplicativo.</span>
+            <div>
+                <img class="button-download" src="./images/download-g.svg" alt="Download Google Play">
+                <img class="button-download" src="./images/download-a.svg" alt="Download Microsoft">
+            </div>
+        </div>            
+    </section>
 </body>
 </html>
