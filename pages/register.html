@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Cadastrar</title>
+</head>
+<body>
+    <main class="conteudo">
+        <section class="escrita">
+            <picture>
+            <img class="escrita-imagem" src="./images/roxo.png" alt="Logo">
+            </picture>
+            <h1 class="escrita-titulo">Geometric</h1>
+            <p class="escrita-paragrafo">Já possuo cadastro</p>
+            <a class="escrita-link" href="###">Entrar</a>
+        </section>
+        <section class="formulario">
+            <div class="formulario-informacoes">
+                <label for="nome-usuario">Nome</label>
+                    <input type="text" name="nome" required> 
+                <label for="sobrenome-usuario">Sobrenome</label>
+                    <input type="text" name="sobrenome" required>
+                <label for="email-usuario">E-mail </label>
+                    <input type="email" name="email" required>
+                <label for="data-nascimento">Data de nascimento </label>
+                    <input type="date" name="data-nascimento" required>
+                <label for="senha-usuario">Senha</label>
+                    <input type="password" name="senha" required>
+                <label for="confirmar-senha-usuario">Confirmar senha</label>
+                    <input type="password" name="confirmar-senha">
+            </div> 
+            <div class="formulario-checkbox">
+                <div class="formulario-checkbox-termo">
+                    <input class="checkbox-termos" id="termos" type="checkbox" name="termos" required>
+                    <label class="checkbox-label" for="termos">Eu aceito e concordo com os <a class="checkbox-link" href="###">termos de uso</a> e <a class="checkbox-link" href="###">política de privacidade</a>.</label>
+                </div>
+                <div class="formulario-checkbox-email">
+                    <input class="checkbox-email" id="receber-email" type="checkbox" name="receber-email" value="email" required>
+                    <label class="checkbox-label" for="receber-email">Eu aceito receber e-mail com novidades sobre o Geometric.</label>
+                </div>
+            </div>
+            <div class="formulario-botao">
+                <input class="formulario-botao-cadastrar" type="button" value="Cadastrar" name="botao-cadastrar">
+            </div>
+        </section>
+    </main>  
+</body>
+</html>

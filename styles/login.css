@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;    
+    font-family: 'Chakra Petch', sans-serif;   
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+    background-color: #8051b9;  
+    background-image: url(../images-geometric/roxo.png);
+    background-position: -20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color:  #7612da;
+}
+
+a:visited {
+    color: #070568;
+}
+
+section {
+    height: 570px;
+}
+
+section:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 350px;
+}
+
+#sec-1 {
+    width: 100%;
+    border: 1px solid #7244ac;
+}
+
+#sec-2 {
+    width: 100%;
+    border: 1px solid #7244ac;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#sec-1, #sec-2 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #1e1e1e;
+}
+
+h1 {
+    letter-spacing: 3px;
+    color: #070568;
+    font-size: 45px;    
+    text-align: center;
+    margin: 25px auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#login {
+    width: 120px;
+    height: 30px;
+    background-color: #7244ac;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto 10px;
+    box-shadow: 1px 1px 2.2px #1e1e1e;
+    cursor: pointer;
+}
+
+#login:hover {
+    background-color: #632f97;
+}
+
+#login:active {
+    margin: 11px auto 9px;
+}
+
+#lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #070568;
+}
+
+.line {
+    width: 80px;
+    height: 1px;
+    border: none;
+    background-color: #070568;
+}
+
+span {
+    margin: 20px auto;
+    color: black;
+}
+
+#icons-login {
+    display: flex;
+    gap: 12px;;
+}
+
+.icon-login:hover {    
+    cursor: pointer;
+    animation: increaseIcon .2s forwards;
+}
+
+.icon-login {
+    width: 40px;
+}
+
+#forgot-password {
+    margin: 20px;
+}
+
+#downloads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#downloads span {
+    margin: 0  0 10px 0;
+    color: white;
+    text-shadow: 1px 1px 5px #1e1e1e;
+}
+
+.button-download {
+    width: 120px;
+}
+
+.button-download:nth-child(1) {
+    margin-right: 10px;
+}
+
+.button-download:hover {
+    cursor: pointer;
+    animation: increaseIcon .2s forwards;
+}
+
+@media (max-width: 856px) {
+    body {
+    background-position: center;
+    }
+}
+
+@keyframes increaseIcon {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
