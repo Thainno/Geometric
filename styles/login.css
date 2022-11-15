@@ -78,12 +78,17 @@ form {
 input {
     width: 200px;
     height: 30px;
-    margin-bottom: 10px;
     outline: 0;
+    padding-left: 10px;
 }
 
-input:focus, input:valid {
-    border: 1px solid #6f08ee;
+input:nth-child(1) {
+    margin-bottom: 15px;
+}
+
+input:focus,
+input:valid {
+    border: 1px solid #7544a6;
     border-radius: 2px;
     height: 32px;
     width: 202px;
@@ -105,11 +110,13 @@ input:focus ~ label,
 input:valid ~ label {
     padding: 0 2px;
     background-color: white;
-    animation: liftLabel 1s forwards;
+    color: #7544a6;
+    animation: liftLabel .5s forwards;
+    margin: 10px 10px;
 }
 
 @keyframes liftLabel {
-    0%{
+    0% {
         transform: translateY(0);
     }
     100% {
@@ -124,7 +131,7 @@ input:valid ~ label {
     color: white;
     border: none;
     border-radius: 5px;
-    margin: 10px auto 10px;
+    margin: 10px auto 20px;
     box-shadow: 1px 1px 2.2px #1e1e1e;
     cursor: pointer;
 }
