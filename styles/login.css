@@ -1,93 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&display=swap');
 
 body {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;    
-    font-family: 'Chakra Petch', sans-serif;   
     display: flex;
     align-items: center;
     justify-content: center; 
-    gap: 10px;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;  
+    gap: 10px;  
+       
     background-color: #8051b9;  
     background-image: url(../images-geometric/roxo.png);
     background-position: -20%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
 
-a {
-    text-decoration: none;
-    color:  #7612da;
-}
-
-a:visited {
-    color: #070568;
-}
-
-header {
-    position: relative;
-}
-
-#img-theme,
-#animate-theme{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    background-color: white;
-    position: absolute;
-}
-
-#img-theme{
-    margin: -37px 0 0 -17px;
-}
-
-#animate-theme {    
-    margin: -40px 0 0 -20px;
-    border: 3px solid white;
-    border-top: 3px solid #7244ac;
-    animation: rotateBorder 1.3s infinite;
-}
-
-@keyframes rotateBorder {
-    0% {
-        transform: rotateZ(0deg);
-    }
-    100% {
-        transform: rotateZ(360deg);
-    }
-}
-
-header div img {
-    width: 40px;
+    font-family: 'Chakra Petch', sans-serif; 
 }
 
 section {
-    height: 570px;
-}
-
-section:nth-child(1) {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 10px;
+    height: 570px;
     width: 350px;
-}
-
-#sec-1 {
-    width: 100%;
-    border: 1px solid #7244ac;
-}
-
-#sec-2 {
-    width: 100%;
-    border: 1px solid #7244ac;
-    text-align: center;
-    padding: 20px 0;
 }
 
 #sec-1, #sec-2 {
@@ -96,11 +33,76 @@ section:nth-child(1) {
     box-shadow: 1px 1px 5px #1e1e1e;
 }
 
+header div:nth-child(1) {
+    display: flex;
+    align-items: center;    
+    position: absolute; 
+    overflow: hidden;   
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;        
+    margin: -37px 0 0 -17px;
+    background-color: white;
+}
+
+header div:nth-child(1):hover {
+    animation: showThemes 1s forwards;
+}
+
+#img-theme{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    position: absolute;   
+    width: 50px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 100%; 
+    background-color: white;
+}
+
+#images-theme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    gap: 10px;
+    margin-top: 50px;
+}
+
+#images-theme span {
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+#images-theme img {
+    width: 30px;
+}
+
+#images-theme img:hover {    
+    animation: increaseIcon .2s forwards;
+    cursor: pointer;
+}
+
+@keyframes showThemes {
+    0%{
+        border-radius: 50px;
+    }
+    100%{
+        display: flex;
+        flex-direction: column;
+        width: 60px;
+        margin: -26px 0 0 -65px;
+        border-radius: 5px;
+        padding-bottom: 200px;
+        padding-top: 10px;
+    }
+}
+
 h1 {
+    text-align: center;    
+    font-size: 2.5rem;   
     letter-spacing: 3px;
-    color: #070568;
-    font-size: 45px;    
-    text-align: center;
+    color: #070568; 
     margin: 25px auto;
 }
 
@@ -115,14 +117,15 @@ form {
     flex-direction: column;
 }
 
+.inputs {
+    position: relative;
+}
+
 input {
     width: 200px;
     height: 30px;
     outline: 0;
     padding-left: 10px;
-}
-
-input:nth-child(1) {
     margin-bottom: 15px;
 }
 
@@ -132,10 +135,6 @@ input:valid {
     border-radius: 2px;
     height: 32px;
     width: 202px;
-}
-
-.inputs {
-    position: relative;
 }
 
 .inputs label{
@@ -165,15 +164,15 @@ input:valid ~ label {
 }
 
 #login {
+    cursor: pointer;    
+    border: none;
     width: 120px;
     height: 30px;
-    background-color: #7244ac;
-    color: white;
-    border: none;
     border-radius: 5px;
     margin: 10px auto 20px;
+    color: white;
+    background-color: #7244ac;
     box-shadow: 1px 1px 2.2px #1e1e1e;
-    cursor: pointer;
 }
 
 #login:hover {
@@ -181,7 +180,7 @@ input:valid ~ label {
 }
 
 #login:active {
-    margin: 11px auto 9px;
+    margin: 11px auto 19px;
 }
 
 #lines {
@@ -200,26 +199,41 @@ input:valid ~ label {
 }
 
 span {
-    margin: 20px auto;
-    color: black;
+    margin: 10px auto;
+    color: #070568;
 }
 
 #icons-login {
     display: flex;
-    gap: 12px;;
+    gap: 12px;   
 }
 
-.icon-login:hover {    
-    cursor: pointer;
+#icons-login img {
+    width: 40px;
+}
+
+#icons-login img:hover {    
+    cursor: pointer;    
     animation: increaseIcon .2s forwards;
 }
 
-.icon-login {
-    width: 40px;
+a {
+    text-decoration: none;
+    color:  #9944ef;
+}
+
+a:visited {
+    color: #8000ff;
 }
 
 #forgot-password {
     margin: 20px;
+}
+
+#sec-2 {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
 }
 
 #downloads {
@@ -262,4 +276,3 @@ span {
         transform: scale(1.2);
     }
 }
-
