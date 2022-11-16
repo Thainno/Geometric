@@ -86,11 +86,11 @@ body {
 
 section {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     gap: 10px;
     height: 570px;
-    width: 350px;
+    width: 400px;
 }
 
 #sec-1, #sec-2 {
@@ -223,6 +223,7 @@ main {
 form {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .inputs {
@@ -230,7 +231,7 @@ form {
 }
 
 input {
-    width: 200px;
+    width: 250px;
     height: 30px;
     outline: 0;
     padding-left: 10px;
@@ -242,7 +243,7 @@ input:valid {
     border: 1px solid var(--input-color);
     border-radius: 2px;
     height: 32px;
-    width: 202px;
+    width: 252px;
 }
 
 input:invalid:not(:focus){
@@ -273,6 +274,26 @@ input:valid ~ label {
     100% {
         transform: translateY(-20px);
     }
+}
+
+#terms,
+#receive-email {
+    width: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+form div:nth-child(5),
+form div:nth-child(6) {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+form div:nth-child(5) label,
+form div:nth-child(6) label {
+    animation: none;
+    margin: 0 0 0 5px;
 }
 
 #login {

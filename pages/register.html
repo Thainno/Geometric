@@ -4,49 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <title>Cadastrar</title>
+    <link rel="stylesheet" href="../styles/reset/reset.css">
+    <link rel="stylesheet" href="../styles/resgister.css">
+    <title>Geometric</title>
 </head>
-<body>
-    <main class="conteudo">
-        <section class="escrita">
-            <picture>
-            <img class="escrita-imagem" src="./images/roxo.png" alt="Logo">
-            </picture>
-            <h1 class="escrita-titulo">Geometric</h1>
-            <p class="escrita-paragrafo">Já possuo cadastro</p>
-            <a class="escrita-link" href="###">Entrar</a>
-        </section>
-        <section class="formulario">
-            <div class="formulario-informacoes">
-                <label for="nome-usuario">Nome</label>
-                    <input type="text" name="nome" required> 
-                <label for="sobrenome-usuario">Sobrenome</label>
-                    <input type="text" name="sobrenome" required>
-                <label for="email-usuario">E-mail </label>
-                    <input type="email" name="email" required>
-                <label for="data-nascimento">Data de nascimento </label>
-                    <input type="date" name="data-nascimento" required>
-                <label for="senha-usuario">Senha</label>
-                    <input type="password" name="senha" required>
-                <label for="confirmar-senha-usuario">Confirmar senha</label>
-                    <input type="password" name="confirmar-senha">
-            </div> 
-            <div class="formulario-checkbox">
-                <div class="formulario-checkbox-termo">
-                    <input class="checkbox-termos" id="termos" type="checkbox" name="termos" required>
-                    <label class="checkbox-label" for="termos">Eu aceito e concordo com os <a class="checkbox-link" href="###">termos de uso</a> e <a class="checkbox-link" href="###">política de privacidade</a>.</label>
+<body class="blue">
+    <section>
+        <div id="sec-1">
+            <header> 
+                <div id="tema">            
+                    <img id="img-theme" src="../images-geometric/blue.png" alt="Temas">
+                    <div id="images-theme">
+                        <span>Temas</span>
+                        <img class="img-theme" id="themePurple" src="../images-geometric/purple.png" alt="Temas">
+                        <img class="img-theme" id="themeYellow" src="../images-geometric/yellow.png" alt="Temas">
+                        <img class="img-theme" id="themeBlue" src="../images-geometric/blue.png" alt="Temas">
+                        <img class="img-theme" id="themeGreen" src="../images-geometric/green.png" alt="Temas">
+                    </div>
+                </div>   
+                <h1>Cadastrar</h1>
+            </header>
+            <main>
+                <form action="">
+                    <div class="inputs">
+                        <input type="text" name="user-name" id="user-name" required>
+                        <label for="user-name">Nome de usuário</label>
+                    </div>
+                    <div class="inputs">
+                        <input type="email" name="email" id="email" required>
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="inputs">
+                        <input type="password" name="password" id="password" required>
+                        <label for="password">Senha</label>
+                    </div>
+                    <div class="inputs">
+                        <input type="password" name="confirm-password" id="confirm-password" required>
+                        <label for="confirm-password">Confirmar senha</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="terms" id="terms">
+                        <label for="terms">Aceito os <a href="###">termos e condições de uso</a>.</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="receive-email" id="receive-email">
+                        <label for="receive-email">Aceito receber novidades via E-mail.</label>
+                    </div>
+                    <button id="login">Cadastrar</button>
+                </form>
+                <div id="lines">
+                    <div class="line"></div>
+                    <span>OU</span>
+                    <div class="line"></div>
                 </div>
-                <div class="formulario-checkbox-email">
-                    <input class="checkbox-email" id="receber-email" type="checkbox" name="receber-email" value="email" required>
-                    <label class="checkbox-label" for="receber-email">Eu aceito receber e-mail com novidades sobre o Geometric.</label>
-                </div>
+                <span>Cadastrar com</span>
+                <div id="icons-login">
+                    <img src="../images/icon-google.svg" alt="Entrar com Google">
+                    <img src="../images/icon-facebook.svg" alt="Entrar com Facebook">
+                    <img src="../images/icon-twitter.svg" alt="Entrar com Twitter">
+                    <img src="../images/icon-apple.svg" alt="Entrar com ID Apple">                     
+                </div> 
+                <a id="forgot-password" href="##">Esqueceu sua senha ?</a>          
+            </main>
+        </div>
+        <div id="sec-2">
+            <span>Já tem uma conta ? <a href="./login.html">Entrar</a></span>
+        </div>
+        <div id="downloads">
+            <span>Obtenha o aplicativo.</span>
+            <div>
+                <img class="button-download" src="../images/download-g.svg" alt="Download Google Play">
+                <img class="button-download" src="../images/download-a.svg" alt="Download Microsoft">
             </div>
-            <div class="formulario-botao">
-                <input class="formulario-botao-cadastrar" type="button" value="Cadastrar" name="botao-cadastrar">
-            </div>
-        </section>
-    </main>  
+        </div>            
+    </section>
+    <script src="../scripts/themes.js"></script>
 </body>
 </html>

@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset/reset.css">
-    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="../styles/reset/reset.css">
+    <link rel="stylesheet" href="../styles/login.css">
     <title>Geometric</title>
 </head>
-<body class="yellow">
+<body class="blue">
     <section>
         <div id="sec-1">
             <header> 
                 <div id="tema">            
-                    <img id="img-theme" src="./images-geometric/yellow.png" alt="Temas">
+                    <img id="img-theme" src="../images-geometric/blue.png" alt="Temas">
                     <div id="images-theme">
                         <span>Temas</span>
-                        <img class="img-theme" src="./images-geometric/purple.png" alt="Temas">
-                        <img class="img-theme" src="./images-geometric/yellow.png" alt="Temas">
-                        <img class="img-theme" src="./images-geometric/blue.png" alt="Temas">
-                        <img class="img-theme" src="./images-geometric/green.png" alt="Temas">
+                        <img class="img-theme" id="themePurple" src="../images-geometric/purple.png" alt="Temas">
+                        <img class="img-theme" id="themeYellow" src="../images-geometric/yellow.png" alt="Temas">
+                        <img class="img-theme" id="themeBlue" src="../images-geometric/blue.png" alt="Temas">
+                        <img class="img-theme" id="themeGreen" src="../images-geometric/green.png" alt="Temas">
                     </div>
                 </div>   
                 <h1>Geometric</h1>
@@ -27,8 +27,8 @@
             <main>
                 <form action="">
                     <div class="inputs">
-                        <input type="text" name="user-email" id="user-email" required>
-                        <label for="user-email">Usuário ou e-mail</label>
+                        <input type="email" name="email" id="email" required>
+                        <label for="email">E-mail</label>
                     </div>
                     <div class="inputs">
                         <input type="password" name="password" id="password" required>
@@ -43,25 +43,25 @@
                 </div>
                 <span>Entrar com</span>
                 <div id="icons-login">
-                    <img src="./images/icon-google.svg" alt="Entrar com Google">
-                    <img src="./images/icon-facebook.svg" alt="Entrar com Facebook">
-                    <img src="./images/icon-twitter.svg" alt="Entrar com Twitter">
-                    <img src="./images/icon-apple.svg" alt="Entrar com ID Apple">                     
+                    <img src="../images/icon-google.svg" alt="Entrar com Google">
+                    <img src="../images/icon-facebook.svg" alt="Entrar com Facebook">
+                    <img src="../images/icon-twitter.svg" alt="Entrar com Twitter">
+                    <img src="../images/icon-apple.svg" alt="Entrar com ID Apple">                     
                 </div> 
                 <a id="forgot-password" href="##">Esqueceu sua senha ?</a>          
             </main>
         </div>
         <div id="sec-2">
-            <span>Não tem uma conta ? <a href="./pages/register.html">Cadastre-se</a></span>
+            <span>Não tem uma conta ? <a href="./register.html">Cadastre-se</a></span>
         </div>
         <div id="downloads">
             <span>Obtenha o aplicativo.</span>
             <div>
-                <img class="button-download" src="./images/download-g.svg" alt="Download Google Play">
-                <img class="button-download" src="./images/download-a.svg" alt="Download Microsoft">
+                <img class="button-download" src="../images/download-g.svg" alt="Download Google Play">
+                <img class="button-download" src="../images/download-a.svg" alt="Download Microsoft">
             </div>
         </div>            
     </section>
-    <script src="./scripts/login.js"></script>
+    <script src="../scripts/themes.js"></script>
 </body>
 </html>
