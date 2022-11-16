@@ -75,7 +75,6 @@ header div:nth-child(1):not(:hover) {
 header div:nth-child(1):hover {
     animation: showThemes 2s forwards;
 }
-
 @keyframes showThemes {
     0% {
         border-radius: 50px;
@@ -127,7 +126,7 @@ header div:nth-child(1):not(:hover) img {
     margin: 10px 0 0 0;
 }
 
-#images-theme img {
+.img-theme {
     width: 30px;
 }
 
