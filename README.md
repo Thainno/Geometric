@@ -1,6 +1,6 @@
 <h1>Sistema de cadastro</h1>
 
-<p><a href="https://thainno.github.io/sistema-cadastro/">Visualize aqui!</a></p>
+<p><a href="https://thainno.github.io/Geometric/pages/login.html">Visualize aqui!</a></p>
 
 <p>Projeto em desenvolvimento.</p>
 
