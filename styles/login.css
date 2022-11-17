@@ -93,7 +93,7 @@ section {
     width: 350px;
 }
 
-#sec-1, #sec-2 {
+#content-form, #content-register {
     background-color: white;
     border-radius: 5px;
     box-shadow: 1px 1px 5px var(--shadow-color);
@@ -342,20 +342,20 @@ a:visited {
     margin: 20px;
 }
 
-#sec-2 {
+#content-register {
     width: 100%;
     text-align: center;
     padding: 20px 0;
 }
 
-#downloads {
+#content-downloads {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-#downloads span {
+#content-downloads span {
     margin: 0  0 10px 0;
     color: white;
     text-shadow: 1px 1px 5px #1e1e1e;
