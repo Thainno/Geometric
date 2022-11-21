@@ -2,7 +2,7 @@
 
 .purple {
     --bg-color: #8051b9;
-    --bg-image: url(../images-geometric/purple.png);
+    --bg-image: url(../images/images-geometric/purple.png);
     --bg-section: white;
     --tittle-color: #070568;
     --input-color: #7544a6;
@@ -18,7 +18,7 @@
 
 .yellow {
     --bg-color: #ffc800c4;
-    --bg-image: url(../images-geometric/yellow.png);
+    --bg-image: url(../images/images-geometric/yellow.png);
     --bg-section: #fff;
     --tittle-color: #e95b5b;
     --input-color: #960202;
@@ -34,7 +34,7 @@
 
 .blue {
     --bg-color: #05bdda;
-    --bg-image: url(../images-geometric/blue.png);
+    --bg-image: url(../images/images-geometric/blue.png);
     --bg-section: #fff;
     --tittle-color: #027181;
     --input-color: #027181;
@@ -50,7 +50,7 @@
 
 .green {
     --bg-color: #59a45b;
-    --bg-image: url(../images-geometric/green.png);
+    --bg-image: url(../images/images-geometric/green.png);
     --bg-section: #fff;
     --tittle-color: #3a6a03;
     --input-color: #59a45b;

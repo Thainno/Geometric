@@ -6,6 +6,6 @@ colors.forEach((color) => {
     document.body.removeAttribute('class')
     const tlc = color.toLowerCase()
     document.body.classList.toggle(tlc)
-    imgTheme.setAttribute('src', `../images-geometric/${tlc}.png`)
+    imgTheme.setAttribute('src', `../images/images-geometric/${tlc}.png`)
   })
 })
