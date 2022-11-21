@@ -1,7 +1,54 @@
-img {
-    width: 50px;
+body {
+    display: block;
+    background-image: linear-gradient(135deg, #070568, #7544a6);
 }
 
-body {
-    background-color: #1e1e1e;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 5vw;
+    gap: 20vw;
+    height: 90px;
+}
+
+header img {
+    height: 55px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #ffffff;
+}
+
+main img{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    margin-top: -91px;
+    z-index: -1;
+}
+
+main {
+    align-items: start;
+    border-top: 1px solid #ffffff;
+}
+
+main div {    
+    width: 400px;
+    margin: 100px 0 0 70px;
+}
+
+h1 {
+    color: white;
+    text-align: start;
+    font-size: 3.2em;
+    font-weight: 550;
+    z-index: 1;
+}
+
+p {
+    color: #ffffff;
 }
