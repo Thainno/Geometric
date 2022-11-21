@@ -1,15 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    display: block;
-    background-image: linear-gradient(135deg, #070568, #7544a6);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Chakra Petch', sans-serif; 
+    overflow-x: hidden;
 }
 
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: auto 5vw;
-    gap: 20vw;
+    justify-content: space-around;
+    width: 100vw;
     height: 90px;
+    gap: 20vw;
+    border-bottom: 1px solid #ffffff;
+    position: absolute;
+}
+
+.scroll {
+    position: fixed;
+    background-color: #ffffff;
+    animation: downHeader .4s alternate;
+}
+
+@keyframes downHeader {
+    0% {
+        opacity: 0;
+        margin: -90px 0 0 0;
+    }
+    100% {
+        margin: 0;
+    }
 }
 
 header img {
@@ -20,9 +48,18 @@ nav {
     display: flex;
     align-items: center;
     gap: 40px;
-    color: #ffffff;
     text-shadow: 1px 1px 5px #1e1e1e;
     font-size: 18px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 #logout {
@@ -34,26 +71,25 @@ nav {
     color: white;
 }
 
-main img{
+#bg-initial{
     width: 100vw;
     height: 100vh;
     position: absolute;
-    margin-top: -91px;
     z-index: -1;
 }
 
-main {
-    align-items: start;
-    border-top: 1px solid #ffffff;
+section {
+    height: 100vh;
+    
 }
 
-main div {    
-    width: 38vw;    
-    height: 80vh;
+#init div {    
+    width: 460px;    
+    height: 100%;
     display: flex;
     flex-direction: column; 
-    justify-content: center;
-    
+    justify-content: center;   
+    gap: 30px; 
     margin-left: 5vw;
 }
 
@@ -71,7 +107,7 @@ p {
     text-shadow: 1px 1px 5px #1e1e1e;
 }
 
-main div button {
+section div button {
     width: 200px;
     height: 50px;
     border-radius: 25px;
@@ -79,7 +115,6 @@ main div button {
     border: none;
     color: #ffffff;
     font-size: 1.2em;
-    margin-top: 25px;
 }
 
 em {

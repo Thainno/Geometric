@@ -361,6 +361,10 @@ a:visited {
     text-shadow: 1px 1px 5px #1e1e1e;
 }
 
+button {
+    font-family: 'Chakra Petch', sans-serif; 
+}
+
 .button-download {
     width: 120px;
 }
