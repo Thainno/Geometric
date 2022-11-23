@@ -11,7 +11,7 @@
 
 <h2>💻 Projeto</h2>
 
-<p>Clique <a href="">aqui</a> para visualizar e testar o projeto.</p
+<p>Clique <a href="https://thainno.github.io/Geometric/pages/home.html">aqui</a> para visualizar e testar o projeto.</p
 
 <img src=""></img><br>
 
