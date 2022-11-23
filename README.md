@@ -13,9 +13,10 @@
 
 <p>Clique <a href="https://thainno.github.io/Geometric/pages/home.html">aqui</a> para visualizar e testar o projeto.</p
 
-<img src=""></img><br>
+<img src="https://github.com/Thainno/Geometric/blob/main/images/preview/home-desktop.png"></img><br>
 
 ### 
 
 <h1>🔗 Referências</h1>
-<p>Site oficial da Rocketseat: <a href="[https://www.rocketseat.com.br/](https://www.rocketseat.com.br/)"</a>[https://www.rocketseat.com.br/](https://www.rocketseat.com.br/)</p>
+@thainno.santana
+<p>Em breve: pub no linkedin</p>
