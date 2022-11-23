@@ -127,7 +127,7 @@ em {
 }
 
 #metaverse {
-    background-image: linear-gradient(145deg, #203abe, #9a4ab0);
+    background-image: linear-gradient( #0c1b62, #714a7b);
 }
 
 #metaverse {
@@ -155,11 +155,11 @@ em {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-background-color: #ffffff;    border-radius: 10px;
+    gap: 20px;
+    background-color: #ffffff;    border-radius: 10px;
     width: 400px;
     height: 550px;
     box-shadow: 0 0 20px #070568;
-
 }
 
 #metaverse article:nth-child(1),
@@ -171,7 +171,7 @@ background-color: #ffffff;    border-radius: 10px;
 }
 
 #metaverse article:nth-child(1) {
-    margin-right: -50px;
+    margin-right: -150px;
 }
 
 #metaverse article:nth-child(2) {
@@ -180,7 +180,7 @@ background-color: #ffffff;    border-radius: 10px;
 }
 
 #metaverse article:nth-child(3) {
-    margin-left: -50px;
+    margin-left: -150px;
 }
 
 #metaverse article img {
@@ -191,14 +191,26 @@ background-color: #ffffff;    border-radius: 10px;
 #next-card {
     width: 50px;
     position: absolute;
+    background: transparent;
+    color: #070568;
+    font-size: 2.2em;
 }
 
 #back-card {
-    margin: 0 0 0 -380px;
+    margin: 0 0 0 -420px;
 }
 
 #next-card {
-    margin: 0 -380px 0 0;
+    margin: 0 -420px 0 0;
 }
 
+#metaverse div article h2 {
+    font-size: 2em;
+    color: #070568;
+}
 
+#metaverse div article p {
+    text-shadow: none;
+    margin: 0 30px ;
+    color: #a262e6;
+}
