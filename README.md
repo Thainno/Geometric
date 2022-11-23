@@ -3,10 +3,10 @@
 <p>Projeto desenvolvido para fins educativos na qual foi criado os metaversos da Geometric, uma empresa fictícia criada apenas para esse projeto em específico.</p><br>
 
 <h2>✅ Funcionalidades</h2>
-<ul>
-  <li></li>
-  <li></li>
-  <li></li>
+<ul>  
+  <li>Criação de cadastro;</li>
+  <li>Login com o cadastro criado para acessar o conteúdo;</li>
+  <li>Landign page da Geometric;</li>
 </ul><br>
 
 <h2>💻 Projeto</h2>
