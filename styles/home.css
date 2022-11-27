@@ -193,17 +193,17 @@ em {
 
 #metaverse-content-right h2 {
     font-size: 3em;
-    text-shadow: 1px 1px 10px #000;
-    color: #ffffff;
     margin: 40px 0 20px 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #000;
 }
 
 #metaverse-content-right p {
-    border-top: 1px solid #ffffff86;
-    text-shadow: 1px 1px 5px #000;
     font-size: 2em;
     line-height: 30px;
     padding-top: 30px;
+    border-top: 1px solid #ffffff86;
+    text-shadow: 1px 1px 5px #000;    
 }
 
 #metaverse-select {
@@ -214,31 +214,13 @@ em {
     transform: translateY(20vh);
 }
 
-#metaverse-select img {
-    width: 80px;
-}
-
-#metaverse-select img:hover {
-    animation: increaseImg .3s forwards;
-    cursor: pointer;
-}
-
-@keyframes increaseImg {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.2);
-    }
-}
-
 #metaverse-select button {
     width: 50px;
-    height: 50px;
-    background: none;
-    border: none;
-    color: #ffffff;
+    height: 50px;    
     font-size: 2em;
+    border: none;
+    background: none;
+    color: #ffffff;
 }
 
 #select-meteverse-left {
@@ -246,9 +228,6 @@ em {
 }
 
 @keyframes selectLeft {
-    0% {
-        transform: translateX(0px);
-    }
     50% {
         transform: translateX(-10px);
     }
@@ -259,10 +238,22 @@ em {
 }
 
 @keyframes selectRight {
-    0% {
-        transform: translateX(0px);
-    }
     50% {
         transform: translateX(10px);
+    }
+}
+
+#metaverse-select img {
+    width: 80px;
+}
+
+#metaverse-select img:hover {
+    cursor: pointer;
+    animation: increaseImg .3s forwards;
+}
+
+@keyframes increaseImg {
+    100% {
+        transform: scale(1.2);
     }
 }
