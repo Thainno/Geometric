@@ -140,7 +140,7 @@ em {
     background-image: linear-gradient(145deg, #1c3dde, #d466f2);
 }
 
-/*SECTION METAVERSES*/
+/*SECTION METAVERSES
 
 #bg-image-metaverse {
     width: 110vw;
@@ -164,7 +164,7 @@ em {
     height: 60vh;
     margin: 0 auto;
     border-radius: 6px;
-    background-color: #ffffff38;
+    background-image: linear-gradient(#0e0e0e84, #590c7359);
     transform: translateY(18vh);
 }
 
@@ -200,7 +200,7 @@ em {
 
 #metaverse-content-right p {
     font-size: 2em;
-    line-height: 30px;
+    line-height: 40px;
     padding-top: 30px;
     border-top: 1px solid #ffffff86;
     text-shadow: 1px 1px 5px #000;    
@@ -249,11 +249,13 @@ em {
 
 #metaverse-select img:hover {
     cursor: pointer;
-    animation: increaseImg .3s forwards;
+    transform: scale(1.2);
+    transition: 0.3s;
 }
+*/
 
-@keyframes increaseImg {
-    100% {
-        transform: scale(1.2);
-    }
-}
+
+
+
+/*SECTION PRODUCT*/
+
