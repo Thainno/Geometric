@@ -4,7 +4,7 @@ html {
     scroll-behavior: smooth;
 }
 
-*, html, body {
+*, body {
     box-sizing: border-box;
     font-family: 'Chakra Petch', sans-serif; 
 }
@@ -142,8 +142,18 @@ em {
 
 /*SECTION METAVERSES*/
 
-#metaverse {
-    
+#bg-image-metaverse {
+    width: 110vw;
+    animation: moveBg 5s infinite;
+}
+
+@keyframes moveBg {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-20px);
+    }
 }
 
 #metaverse-content {
@@ -151,10 +161,11 @@ em {
     align-items: center;
     justify-content: center;
     width: 90vw;
-    height: 35vw;
-    margin: auto;
-    border-radius: 10px;
-    background-color: #ffffff23;
+    height: 60vh;
+    margin: 0 auto;
+    border-radius: 6px;
+    background-color: #ffffff38;
+    transform: translateY(18vh);
 }
 
 #metaverse-content-left {
@@ -182,13 +193,14 @@ em {
 
 #metaverse-content-right h2 {
     font-size: 3em;
-    text-shadow: 1px 1px 10px #1e1e1e;
+    text-shadow: 1px 1px 10px #000;
     color: #ffffff;
     margin: 40px 0 20px 0;
 }
 
 #metaverse-content-right p {
-    border-top: 1px solid #ffffff6e;
+    border-top: 1px solid #ffffff86;
+    text-shadow: 1px 1px 5px #000;
     font-size: 2em;
     line-height: 30px;
     padding-top: 30px;
@@ -199,11 +211,25 @@ em {
     justify-content: center; 
     align-items: center;
     gap: 30px;
-    margin-top: 50px;
+    transform: translateY(20vh);
 }
 
 #metaverse-select img {
     width: 80px;
+}
+
+#metaverse-select img:hover {
+    animation: increaseImg .3s forwards;
+    cursor: pointer;
+}
+
+@keyframes increaseImg {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
 }
 
 #metaverse-select button {
@@ -213,4 +239,30 @@ em {
     border: none;
     color: #ffffff;
     font-size: 2em;
+}
+
+#select-meteverse-left {
+    animation: selectLeft 1s infinite;
+}
+
+@keyframes selectLeft {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-10px);
+    }
+}
+
+#select-meteverse-right {
+    animation: selectRight 1s infinite;
+}
+
+@keyframes selectRight {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
 }
