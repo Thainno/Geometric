@@ -254,8 +254,57 @@ em {
 }
 */
 
+#metaverse {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
 
+#cards {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    width: 400px;
+    height: 580px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #1e1e1e;
+}
 
+#card-left p,
+#card-right p{    
+    display: none;
+}
+
+.cards img {
+    width: 100%;
+}
+
+#card-left, #card-right {
+    width: 350px;
+    height: 530px;
+    background-color: #ffffffa1;
+    justify-content: center;
+}
+
+#card-left {
+    margin-right: -70px;
+}
+
+#card-middle {
+    z-index: 1;
+}
+
+#card-right {
+    margin-left: -70px;
+}
 
 /*SECTION PRODUCT*/
 
