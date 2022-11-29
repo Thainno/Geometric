@@ -271,7 +271,7 @@ em {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #ffffffc3;
     width: 360px;
     height: 580px;
     padding: 30px;
@@ -280,7 +280,8 @@ em {
 }
 
 .cards p {
-    text-shadow: none;
+    text-shadow: none;    
+    margin-bottom: 20px;
 }
 
 .cards p,
@@ -308,7 +309,10 @@ em {
     border: none;
     border-radius: 25px;
     color: white;
-    margin-top: 20px;
+}
+
+.cards:hover {
+    background-color: #ffffff;
 }
 
 #card-left h3{
@@ -321,6 +325,16 @@ em {
 
 #get-left {
     background-color: #038295;
+    border-bottom: 2px solid #003f49;
+}
+
+#get-left:hover {
+    background-color: #027181;
+}
+
+.get:active {
+    border: none;
+    margin: 2px 0 -2px 0;
 }
 
 #card-middle h3{
@@ -333,6 +347,16 @@ em {
 
 #get-middle {
     background-color: #7244ac;
+    border-bottom: 2px solid #3a0f6e;
+}
+
+#get-middle:hover {
+    background-color: #632f97;
+}
+
+#get-middle:active {    
+    border: none;
+    margin: 2px 0 -2px 0;
 }
 
 #card-right h3 {
@@ -344,7 +368,18 @@ em {
 }
 
 #get-right {
+    text-shadow: 1px 1px 1px #9b7d13;
     background-color: #e9c644;
+    border-bottom: 2px solid #c99d00;
+}
+
+#get-right:hover {
+    background-color: #e3b408;
+}
+
+#get-right:active {    
+    border: none;
+    margin: 2px 0 -2px 0;
 }
 
 /*SECTION PRODUCT*/
