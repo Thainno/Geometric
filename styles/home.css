@@ -83,12 +83,18 @@ header nav ul {
     height: 30px;
     border: none;
     border-radius: 25px;
-    background-image: linear-gradient(145deg, #12268b, #9a4ab0);
+    background-image: linear-gradient(145deg, #12268b, #9a4ab0);    
+    border-bottom: 2px solid #3a0f6e;
     color: white;
 }
 
 #logout:hover {
     background-image: linear-gradient(145deg, #1c3dde, #d466f2);
+}
+
+#logout:active {    
+    border: none;
+    margin: 2px 0 -2px 0;
 }
 
 section {
