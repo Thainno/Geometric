@@ -279,5 +279,42 @@ em {
 }
 
 #product {
+    padding-top: 100px;
     width: 600px;
+}
+
+.line-product {
+    background-color: #ffffff;
+    width: 100px;
+    height: 2px;
+}
+
+.lines-product {
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}
+
+#line-left-up,
+#line-right-down {
+    rotate: 20deg;
+}
+
+#line-left-down,
+#line-right-up {
+    rotate: -20deg;
+}
+
+.duble-lines {
+    display: flex;
+}
+
+#line-left-up,
+#line-right-up {
+    margin: 17px -5px 0 -5px;
+}
+
+#line-left-down,
+#line-right-down {
+    margin: -17px -5px 0 -5px;
 }
