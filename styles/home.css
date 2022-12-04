@@ -271,11 +271,13 @@ em {
 
 /*SECTION PRODUCT*/
 
-#product {
+#products {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
-
+#product {
+    width: 600px;
+}
