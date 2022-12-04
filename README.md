@@ -13,7 +13,7 @@
 
 <p>Clique <a href="https://thainno.github.io/Geometric/pages/home.html">aqui</a> para visualizar e testar o projeto.</p
 
-<img src="https://github.com/Thainno/Geometric/blob/main/images/preview/home-desktop.png"></img><br>
+<img src="https://github.com/Thainno/Geometric/blob/main/images/preview/home-desktop.png"><br>
 
 ### 
 
