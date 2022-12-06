@@ -298,12 +298,12 @@ em {
     background-color: #ffffff;
     width: 100px;
     height: 2px;
-    margin: 17px 0 0 0;
+    margin: 8px 0 0 0;
 }
 
 .line-left {
     background-color: #ffffff;
-    width: 100px;
+    width: 50px;
     height: 2px;
     rotate: 20deg;
     margin-right: -4px;
@@ -311,15 +311,25 @@ em {
 
 .line-right {    
     background-color: #ffffff;
-    width: 100px;
+    width: 50px;
     height: 2px;
     rotate: -20deg;
     margin-left: -4px;
 }
 
-.content-lines {
+.content-lines-left {
     width: 200px;
     height: 100px;
-    background-color: #ffffff;
-    margin: -100px;
+    margin: -108px -50px 0 0 ;
+    background-color: #ffffffa5;
+    border: 2px solid #ffffff;
 }
+
+.content-lines-right {
+    width: 200px;
+    height: 100px;
+    margin: -108px 0 0 -50px;
+    background-color: #ffffffa5;
+    border: 2px solid #ffffff;
+}
+
