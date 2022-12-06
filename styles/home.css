@@ -353,3 +353,8 @@ em {
     color: #1e1e1e;
     text-shadow: none;
 }
+
+#btn-store {
+    position: absolute;
+    margin-bottom: -650px
+}
