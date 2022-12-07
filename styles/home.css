@@ -356,5 +356,16 @@ em {
 
 #btn-store {
     position: absolute;
-    margin-bottom: -650px
+    margin-bottom: -650px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    background-image: linear-gradient(145deg, #12268b, #9a4ab0);
+
+}
+
+#btn-store:hover {
+    background-image: linear-gradient(145deg, #1c3dde, #d466f2);
 }
