@@ -327,6 +327,16 @@ em {
     margin: -158px -50px 0 0 ;
     background-color: #ffffffa5;
     border: 2px solid #ffffff;
+    animation: showDiv 2s forwards;
+}
+
+@keyframes showDiv {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 150px;
+    }
 }
 
 .content-lines-right {
@@ -374,3 +384,4 @@ em {
     border: none;
     margin: 652px 0 -1px 0;
 }
+
